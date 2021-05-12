@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: rgb(221, 221, 221);
+}
+.card{
+    box-shadow: 10px 10px rgb(179, 179, 179);
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    background-color: white;
+    &__profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        &-img{
+            border-radius: 20px;
+        }
+        &-name{
+            color: rgb(57, 57, 172);
+        }
+    }
+    &__descript{
+        &-section{
+            &-type{
+                color: rgb(57, 57, 172);
+            }
+        }
+    }
+}
+.link{
+    color:rgb(104, 104, 104);
+    text-decoration: none;
+}
+.link:hover{
+    color: black;
+    text-decoration: underline;
+}
+// .descript{
+//     display: flex;
+//     flex-direction: column;
+// }
+// .imgWhil{
+//     border-radius: 20px;
+// }
+// .count{
+//     font-size: xx-large;
+// }
+// .btnSum{
+//     transition:  0.3s;
+//     font-size: large;
+//     border:none;
+//     padding: 20px;
+//     border-radius: 50%;
+//     box-shadow: 4px 2px grey;
+// }
+// .btnSum:active{
+//     transition:  0.3s;
+//     box-shadow: none;
+// }
